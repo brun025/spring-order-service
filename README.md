@@ -133,24 +133,3 @@ Para remover volumes:
 ```bash
 docker-compose down -v
 ```
-{
-  "externalOrderId": "ORDER-005",
-  "items": [
-    {
-      "productId": "PROD-002",
-      "productName": "p1",
-      "quantity": 2,
-      "unitPrice": 100
-    },
-    {
-      "productId": "PROD-003",
-      "productName": "p3",
-      "quantity": 3,
-      "unitPrice": 50
-    }
-  ],
-  "receivedAt": "2024-03-14T10:30:00"
-}
-
-docker exec -it order-postgres psql -U postgres -d orderdb
-mvn test
