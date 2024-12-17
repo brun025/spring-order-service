@@ -133,3 +133,9 @@ Para remover volumes:
 ```bash
 docker-compose down -v
 ```
+
+### Autor
+
+Linkedin: https://www.linkedin.com/in/bruno-f-moraes/
+
+email: brunofelipedk@gmail.com
